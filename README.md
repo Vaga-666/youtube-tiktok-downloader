@@ -2,8 +2,6 @@
 Web app to download video/audio from YouTube & TikTok. Job/status flow, FastAPI backend.
 Topics: python, fastapi, yt-dlp, downloader, api, async
 
-# YouTube / TikTok Video & Audio Downloader
-
 Web app to download video/audio from YouTube and TikTok by URL. Includes job/status flow API (FastAPI).
 
 ## Features
