@@ -13,11 +13,14 @@ Python • FastAPI • yt-dlp
 
 ## Run locally
 ```bash
+cd project
 python -m venv venv
 # Windows:
 venv\Scripts\activate
-# Linux/Mac:
-source venv/bin/activate
+pip install -r requirements.txt
+uvicorn app.main:app --reload
+
 
 pip install -r requirements.txt
 uvicorn app.main:app --reload
+
